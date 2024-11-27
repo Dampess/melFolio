@@ -83,7 +83,7 @@ backToTop.addEventListener("click", () => {
 });
 
 // 6. Mise à jour dynamique des années d'expérience
-const startYear = 2020; // Année de début d'expérience
+const startYear = 2022; // Année de début d'expérience
 const experienceElement = document.querySelector("#experience-years");
 if (experienceElement) {
   const currentYear = new Date().getFullYear();
